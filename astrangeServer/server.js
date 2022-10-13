@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/", require("./routes/Routes"));
 mongoose.connect(
-  "mongodb+srv://MomenGharib:Xdesignerstrange2022@cluster0.4fxgyat.mongodb.net/usersDB"
+  "mongodb+srv://<<Your MongoDB account username>>:<<Your MongoDB account password>>@cluster0.4fxgyat.mongodb.net/<<database name>>"
 );
 
 app.listen(process.env.PORT || 3001, function () {
