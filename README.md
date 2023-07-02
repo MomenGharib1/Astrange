@@ -38,4 +38,6 @@ npm start
 
 ## Important
 
-unfortunately, if you wanted to try the app in your local machine, you will not have the access to the original database of the app as it uses my personal account, so you should make a mongoDB account and link that account to the project in the server.js file.
+In order to make use of all the functionalities of the project on your local machine:
+- You should make a mongoDB account and link that account to the project in the server.js file.
+- In firebase.js file in components folder in the client side (astrange) you will need to put you own firebase keys if you want but I'll allow using mine, this file is used to upload and get profile pics for each user.
